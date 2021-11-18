@@ -1,0 +1,4 @@
+#pragma once
+#ifndef ROUNDED_RECTANGLE_H
+#define ROUNDED_RECTANGLE_H
+#endif // !ROUNDED_RECTANGLE_H
