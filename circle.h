@@ -1,14 +1,15 @@
 #pragma once
 #ifndef CIRCLE_H
 #define CIRCLE_H
-class Circle {
+#include "shape.h"
+class Circle : public Shape{
 private:
-	double diameter;
+	double radius;
 public:
 	Circle() = delete;
-	Circle(double diameter);
-	
-	virtual double GetArea() const;
-	double GetRadius() const;
+	Circle(std::string color, double radius);
+	double getRadius() const;
+	double getPi() const;
+	virtual double getArea() const;
 };
 #endif // !CIRCLE_H
