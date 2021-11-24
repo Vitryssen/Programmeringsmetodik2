@@ -6,7 +6,6 @@
 class Shape {
 private:
 	std::string color;
-	std::string shapeName = typeid(Shape).name();
 public:
 	Shape(std::string color);
 	std::string getColor() const;

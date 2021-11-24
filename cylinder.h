@@ -8,6 +8,6 @@ private:
 	double height;
 public:
 	Cylinder(std::string color, double radius, double height);
-	virtual double getArea() const;
+	double getArea() const;
 };
 #endif // !CYLINDER_H

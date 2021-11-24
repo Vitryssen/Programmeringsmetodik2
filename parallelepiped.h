@@ -7,6 +7,6 @@ private:
 	double length;
 public:
 	Parallelepiped(std::string color, double width, double height, double length);
-	virtual double getArea() const;
+	double getArea() const;
 };
 #endif // !PARALLELEPIPED_H

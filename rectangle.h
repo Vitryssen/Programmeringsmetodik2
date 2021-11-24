@@ -9,6 +9,6 @@ private:
 	double height;
 public:
 	Rectangle(std::string color, double width, double height);
-	virtual double getArea() const;
+	double getArea() const;
 };
 #endif // !RECTANGLE_H

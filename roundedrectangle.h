@@ -8,6 +8,6 @@ private:
 	Circle baseCircle;
 public:
 	RoundedRectange(std::string color, double width, double height, double radius);
-	virtual double getArea() const;
+	double getArea() const;
 };
 #endif // !ROUNDED_RECTANGLE_H

@@ -10,6 +10,6 @@ public:
 	Circle(std::string color, double radius);
 	double getRadius() const;
 	double getPi() const;
-	virtual double getArea() const;
+	double getArea() const;
 };
 #endif // !CIRCLE_H
