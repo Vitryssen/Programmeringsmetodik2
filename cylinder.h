@@ -3,8 +3,9 @@
 #define CYLINDER_H
 #include "circle.h"
 #include <string>
-class Cylinder : public Circle {
+class Cylinder {
 private:
+	Circle baseCircle;
 	double height;
 public:
 	Cylinder(std::string color, double radius, double height);

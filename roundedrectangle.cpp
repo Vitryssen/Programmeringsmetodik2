@@ -5,5 +5,5 @@ RoundedRectange::RoundedRectange(std::string color, double width, double height,
 
 double RoundedRectange::getArea() const
 {
-	return Rectangle::getArea() - pow(baseCircle.getRadius(), 2) * (4 - baseCircle.getPi());
+	return Rectangle::getArea() - pow(baseCircle.getRadius(), 2) * 4 + baseCircle.getArea();
 }
