@@ -1,6 +1,6 @@
 #include "cylinder.h"
 #include "circle.h"
-Cylinder::Cylinder(std::string color, double radius, double height) : baseCircle(color, radius), height(height)
+Cylinder::Cylinder(std::string color, double radius, double height) : baseCircle(color, radius), height(height), Shape(color)
 {
 }
 

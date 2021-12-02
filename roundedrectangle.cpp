@@ -1,4 +1,4 @@
-#include "roundedrectangle.h";
+#include "roundedrectangle.h"
 RoundedRectange::RoundedRectange(std::string color, double width, double height, double radius) : Rectangle(color, width, height), baseCircle(color, radius)
 {
 }
